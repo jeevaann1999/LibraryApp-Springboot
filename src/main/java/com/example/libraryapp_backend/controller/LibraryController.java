@@ -26,5 +26,9 @@ public String BookEntry(){
 public String BookSearch(){
     return "Welcome to Book Search page";
 }
+@PostMapping("/bookedit")
+public String BookEdit(){
+    return "Welcome to Book Edit page";
+}
 
 }
