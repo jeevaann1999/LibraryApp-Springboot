@@ -34,5 +34,9 @@ public String BookEdit(){
 public String BookIssue(){
     return "Welcome to Book Issue page";
 }
+@PostMapping("/bookdelete")
+public String BookDelete(){
+    return "Welcome to Book Delete page";
+}
 
 }
