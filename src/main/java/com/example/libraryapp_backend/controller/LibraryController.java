@@ -19,8 +19,12 @@ public String UserRegistration(){
     return "Welcome to user registration page";
 }
 @PostMapping("/bookentry")
-    public String BookEntry(){
+public String BookEntry(){
     return "Welcome to Book Entry page";
+}
+@PostMapping("/booksearch")
+public String BookSearch(){
+    return "Welcome to Book Search page";
 }
 
 }
