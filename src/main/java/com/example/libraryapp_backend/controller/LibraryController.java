@@ -7,7 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class LibraryController {
 
 @PostMapping("/")
-    public  String AdminLogin(){
+public  String AdminLogin() {
     return "Welcome to admin login";
-    }
+}
+@PostMapping("/userlogin")
+    public String UserLogin(){
+    return "Welcome to user login";
+}
 }
