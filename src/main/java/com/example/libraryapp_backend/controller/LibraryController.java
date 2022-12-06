@@ -8,15 +8,19 @@ public class LibraryController {
 
 @PostMapping("/")
 public  String AdminLogin() {
-    return "Welcome to admin login";
+    return "Welcome to admin login page";
 }
 @PostMapping("/userlogin")
 public String UserLogin(){
-    return "Welcome to user login";
+    return "Welcome to user login page";
 }
 @PostMapping("/userreg")
 public String UserRegistration(){
-    return "Welcome to user registration";
+    return "Welcome to user registration page";
+}
+@PostMapping("/bookentry")
+    public String BookEntry(){
+    return "Welcome to Book Entry page";
 }
 
 }
