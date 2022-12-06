@@ -30,5 +30,9 @@ public String BookSearch(){
 public String BookEdit(){
     return "Welcome to Book Edit page";
 }
+@PostMapping("/bookissue")
+public String BookIssue(){
+    return "Welcome to Book Issue page";
+}
 
 }
